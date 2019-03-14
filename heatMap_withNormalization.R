@@ -17,17 +17,9 @@ data.m
 #data.m<-log2(data.m)
 #data.norm<-normalization(data.m)
 
-#myCol <-colorRampPalette(c("red","orange", "yellow","green","blue","darkblue"))(n = 200)
-#myCol <-colorRampPalette(c("khaki1","khaki2","yellow", "orange","red"))(n = 200)
-myCol <-colorRampPalette(c("darkblue","blue","lightblue","white","yellow","red","darkred"))(n = 200)
-myCol2 <-diverge_hcl(12,c=100,l=c(50,90),power=1)
-myCol3<-colorspace::diverge_hsv
 myCol4 <-colorRampPalette(c("darkblue","blue","lightblue","yellow","red","darkred"))(n = 200)
-##myCol <-colorRampPalette(c("Grey","white","black"))(n = 200)
-tiff("delet17.png",units="in",width=20,height=20,res=600)
 
-#svg(filename="Std_SVG.svg",width=20,height=80,pointsize=12)
-
+tiff("image.tiff",units="in",width=20,height=20,res=600)
 heatmap.2(data.m,col= myCol4,dendrogram ="row",trace='none',Colv=FALSE, keysize = 0.5)
 dev.off()
 
