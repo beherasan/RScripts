@@ -1,0 +1,1 @@
+Gene  Control1 Control2 Control3  Treatment1  Treatment2  Treatment3
