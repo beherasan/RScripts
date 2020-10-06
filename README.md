@@ -1,3 +1,7 @@
-# RSPDA
-RSPDA (Repository of Scripts for Proteomics Data Analysis) is a collection of scripts in various programming language (mostly R and PERL) for the analysis of proteomics data.
-This contains scripts for Calculation of P-value and fold change of protein abundance across two conditions and create a volcano plot using the same
+# RScripts
+RScripts is a collection of scripts developed in R for the analysis of proteomics data or data visualization
+
+Please acknowledge this link if you are using the scripts from this repository.
+
+Contact beheras40@gmail.com if you want to develop a R script for any analysis or Plot.
+
