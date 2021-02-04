@@ -1,3 +1,6 @@
+## This script is adopted from https://wencke.github.io/
+## Please cite the above if you are using the package GOplot to generate GOChord plot
+
 library(GOplot)
 
 data<-read.csv("InputMatrix.txt", header=TRUE, row.names=1, sep = "\t")
