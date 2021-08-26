@@ -8,12 +8,8 @@ library(qsmooth)
 library(ggplot2)
 library(gplots)
 
-## Read the file and replace 0s with minimum/10
+## Read the file
 data <- read.csv("FOR_CLUSTER_MC.txt",sep="\t",header=TRUE, row.names = 1)
-#data[data == 0] <- NA
-#min_data <- min(apply(data, 2, function(x) min(x, na.rm=TRUE)))
-#data[is.na(data)] <- (min_data/10)
-#data.m<-as.matrix(data)
 
 ### Smooth Qunatile normalization
 group_factor <- rep(c(1:2),each=3)
